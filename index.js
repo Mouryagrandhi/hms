@@ -17,7 +17,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://test:12345@cluster0.v7jlqnt.mongodb.net/data');
+mongoose.connect('mongodb+srv://grandhimourya2:GFbsvy7BbrcjuT4e@cluster0.jia1mnm.mongodb.net/');
 const connection = mongoose.connection;
 
 connection.once('open', () => {
